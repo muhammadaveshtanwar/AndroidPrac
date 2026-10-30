@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Student Resources</string>
+    <string name="welcome_title">Welcome to My College</string>
+    <string name="welcome_message">This app demonstrates colors, strings, dimens, themes and drawable resources.</string>
+    <string name="course_label">Course</string>
+    <string name="course_value">Bachelor of Computer Applications</string>
+    <string name="semester_label">Semester</string>
+    <string name="semester_value">5th Semester</string>
+    <string name="btn_read_more">Read More</string>
+    <string name="toast_message">Thanks for reading!</string>
+</resources>

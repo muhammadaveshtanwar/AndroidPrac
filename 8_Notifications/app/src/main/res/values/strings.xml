@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NotificationsDemo</string>
+    <string name="title_text">Notification Manager Demo</string>
+    <string name="description_text">Post simple and big-text notifications using NotificationManager and a channel.</string>
+
+    <string name="status_label">Last Action</string>
+    <string name="status_initial">No notification action yet</string>
+
+    <string name="btn_simple">Show Simple Notification</string>
+    <string name="btn_big">Show Big Text Notification</string>
+    <string name="btn_cancel">Cancel All Notifications</string>
+
+    <string name="channel_name">Practical Channel</string>
+    <string name="channel_description">Channel used for the notification practical</string>
+
+    <string name="simple_title">Simple Notification</string>
+    <string name="simple_message">This is a simple notification from NotificationManager.</string>
+
+    <string name="big_title">Big Text Notification</string>
+    <string name="big_preview">This notification uses BigTextStyle...</string>
+    <string name="big_message">This is a long notification message written to demonstrate the BigTextStyle of NotificationCompat. When the user expands this notification, the complete paragraph becomes visible instead of a single short line. This is how most apps show detailed messages in the notification panel.</string>
+
+    <string name="status_simple">Simple notification posted</string>
+    <string name="status_big">Big text notification posted</string>
+    <string name="status_cancel">All notifications cancelled</string>
+
+    <string name="toast_cancel">Notifications cleared</string>
+    <string name="hint_text">Notification bar se neeche khicho (swipe down) to notification dikhegi. Tap karne par yahi app khulega.</string>
+</resources>

@@ -1,0 +1,24 @@
+QUESTION
+=======
+
+7. Develop an Android application implementing Fragment-based UI navigation
+   between multiple screens.
+
+----
+
+Project : 7_FragmentNavigation (Android Studio, Java)
+Open    : Android Studio -> Open -> D:\Android_Practical\7_FragmentNavigation
+Run     : Shift+F10 (app config) ya green Run button
+
+Kaise kaam karta hai:
+- 3 screens = 3 Fragments (alag-alag layout ke saath):
+    HomeFragment   -> fragment_home.xml
+    ProfileFragment-> fragment_profile.xml
+    AboutFragment  -> fragment_about.xml
+- MainActivity.java me FrameLayout = ek hi container, usme fragment replace hota hai:
+    getSupportFragmentManager().beginTransaction()
+        .replace(R.id.fragmentContainer, new ProfileFragment())
+        .addToBackStack(null)
+        .commit();
+- Neeche 3 buttons: Home / Profile / About - click par fragment badalta hai
+- Android back button -> peeche wala fragment (addToBackStack ki wajah se)

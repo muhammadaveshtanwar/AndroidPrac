@@ -1,0 +1,18 @@
+QUESTION
+=======
+
+4. Develop an Android application demonstrating Alert Dialog.
+
+----
+
+Project : 4_AlertDialog (Android Studio, Java)
+Open    : Android Studio -> Open -> D:\Android_Practical\4_AlertDialog
+Run     : Shift+F10 (app config) ya green Run button
+
+Kaise kaam karta hai:
+- MainActivity.java me 3 tarah ke AlertDialog (sab AlertDialog.Builder se):
+    1. Show Alert Dialog  -> title + message + Yes / No / Later buttons
+    2. Show List Dialog   -> setItems() se subject ki list
+    3. Show Input Dialog  -> EditText view + Save / Cancel
+- Har button ke action ka result status card par dikhta hai
+- Alert Dialog = activity ke upar chhota popup, user input leta hai

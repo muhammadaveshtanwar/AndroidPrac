@@ -1,0 +1,20 @@
+QUESTION
+=======
+
+3. Develop an Android application demonstrating complete Activity Lifecycle
+   methods and analyse execution using Logcat.
+
+----
+
+Project : 3_ActivityLifecycle (Android Studio, Java)
+Open    : Android Studio -> Open -> D:\Android_Practical\3_ActivityLifecycle
+Run     : Shift+F10 (app config) ya green Run button
+
+Kaise kaam karta hai:
+- MainActivity.java me 7 override methods:
+    onCreate, onStart, onResume, onPause, onStop, onRestart, onDestroy
+    Har method me:  Log.d(TAG, "...")  + screen par status card update
+- Logcat me filter:  LifecycleDemo
+- Expected order (app start):  onCreate -> onStart -> onResume
+- Home dabao + wapas aao:      onPause -> onStop -> onRestart -> onStart -> onResume
+- Finish Activity button:      onPause -> onStop -> onDestroy

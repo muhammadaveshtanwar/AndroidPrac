@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <!-- Header using drawable resource -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_header"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/screen_padding">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title_text"
+            android:textColor="@color/white"
+            android:textSize="@dimen/title_text_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/card_spacing"
+            android:gravity="center"
+            android:text="@string/description_text"
+            android:textColor="@color/white"
+            android:textSize="@dimen/subtitle_text_size" />
+
+    </LinearLayout>
+
+    <!-- Status card -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/screen_padding"
+        android:layout_marginTop="@dimen/card_spacing"
+        android:layout_marginEnd="@dimen/screen_padding"
+        android:background="@drawable/custom_background"
+        android:orientation="vertical"
+        android:padding="@dimen/card_padding">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/status_label"
+            android:textColor="@color/primary"
+            android:textSize="@dimen/label_text_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/statusText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/card_spacing"
+            android:text="@string/status_initial"
+            android:textColor="@color/text_secondary"
+            android:textSize="@dimen/subtitle_text_size" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/alertBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/card_spacing"
+        android:backgroundTint="@color/primary"
+        android:text="@string/btn_alert"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/listBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/card_spacing"
+        android:backgroundTint="@color/primary"
+        android:text="@string/btn_list"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/inputBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/card_spacing"
+        android:backgroundTint="@color/primary"
+        android:text="@string/btn_input"
+        android:textColor="@color/white" />
+
+</LinearLayout>

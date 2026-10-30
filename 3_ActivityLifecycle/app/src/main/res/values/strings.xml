@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ActivityLifecycle</string>
+    <string name="title_text">Activity Lifecycle Demo</string>
+    <string name="description_text">All 7 lifecycle methods are logged with Log.d. Watch them in Logcat with filter: LifecycleDemo</string>
+
+    <string name="status_label">Last Lifecycle Method</string>
+    <string name="status_initial">App just started</string>
+    <string name="count_initial">Events so far: 0</string>
+    <string name="count_text">Events so far: %1$d</string>
+
+    <string name="event_oncreate">onCreate()</string>
+    <string name="event_onstart">onStart()</string>
+    <string name="event_onresume">onResume()</string>
+    <string name="event_onpause">onPause()</string>
+    <string name="event_onstop">onStop()</string>
+    <string name="event_onrestart">onRestart()</string>
+
+    <string name="btn_finish">Finish Activity</string>
+    <string name="logcat_hint">Home dabao -> app wapas lao (onStop, onRestart, onStart, onResume). Finish dabao -> onPause, onStop, onDestroy.</string>
+</resources>

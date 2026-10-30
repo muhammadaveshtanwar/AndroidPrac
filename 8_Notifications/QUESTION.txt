@@ -1,0 +1,24 @@
+QUESTION
+=======
+
+8. Develop an Android application implementing Notifications using
+   Notification Manager.
+
+----
+
+Project : 8_Notifications (Android Studio, Java)
+Open    : Android Studio -> Open -> D:\Android_Practical\8_Notifications
+Run     : Shift+F10 (app config) ya green Run button
+
+Kaise kaam karta hai:
+- MainActivity.java me:
+    createNotificationChannel() -> Android 8.0+ ke liye NotificationChannel
+        (CHANNEL_ID = "practical_channel", IMPORTANCE_DEFAULT)
+    showNotification() -> NotificationCompat.Builder se notification banakar
+        NotificationManager.notify(id, notification) se post ki
+    BigTextStyle -> lamba message expand karke dikhata hai
+    cancelAll() -> saari notifications hata deta hai
+    PendingIntent -> notification tap karne par yahi app khulta hai
+    setAutoCancel(true) -> tap karne par notification khud hat jati hai
+- 3 buttons: Simple, Big Text, Cancel All
+- Test: button dabao -> notification bar neeche khicho -> notification dikhegi

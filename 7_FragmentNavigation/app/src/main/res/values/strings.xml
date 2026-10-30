@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FragmentNavigation</string>
+    <string name="title_text">Fragment Navigation</string>
+    <string name="description_text">Three fragments, one container. Buttons replace the fragment using FragmentTransaction.</string>
+
+    <string name="btn_home">Home</string>
+    <string name="btn_profile">Profile</string>
+    <string name="btn_about">About</string>
+
+    <string name="home_title">Home Screen</string>
+    <string name="home_text">This is the Home fragment.\nTap Profile or About to move to another screen.\nThe Android back button also goes to the previous screen.</string>
+
+    <string name="profile_title">Profile Screen</string>
+    <string name="profile_text">Name: Taha\nCourse: BCA\nSemester: 5th\n\nThis content is inside ProfileFragment.</string>
+
+    <string name="about_title">About Screen</string>
+    <string name="about_text">This app demonstrates Fragment based UI navigation.\nEach screen is a separate Fragment placed inside the same FrameLayout using replace().</string>
+</resources>

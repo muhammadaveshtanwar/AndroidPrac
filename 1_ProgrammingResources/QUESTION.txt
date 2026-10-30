@@ -1,0 +1,21 @@
+QUESTION
+=======
+
+1. Develop an Android application demonstrating the use of Programming
+   Resources (colors.xml, themes.xml, strings.xml, dimens.xml, drawable
+   resources) and apply them in UI components.
+
+----
+
+Project : 1_ProgrammingResources (Android Studio, Java)
+Open    : Android Studio -> Open -> select this folder -> wait for Gradle sync
+Run     : Shift+F10 (app config) ya green Run button
+
+Resources used:
+- colors.xml      -> all colors (primary, accent, card, text)
+- strings.xml     -> all text shown on screen
+- dimens.xml      -> padding, corner, text sizes
+- themes.xml      -> Theme.StudentResources + CardTitle style
+- drawable        -> bg_header.xml, bg_card.xml, ic_book.xml, ic_launcher.xml
+
+MainActivity.java also reads R.string / R.color in code (setText, getColor).

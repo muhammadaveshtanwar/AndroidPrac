@@ -1,0 +1,21 @@
+QUESTION
+=======
+
+6. Develop an Android application demonstrating Event Handling using
+   Listeners (OnClick).
+
+----
+
+Project : 6_EventHandling (Android Studio, Java)
+Open    : Android Studio -> Open -> D:\Android_Practical\6_EventHandling
+Run     : Shift+F10 (app config) ya green Run button
+
+Kaise kaam karta hai - 4 tarike dikhaye hain:
+1. Count Button  -> new View.OnClickListener() { onClick(View v) } (anonymous class)
+2. Toast Button  -> setOnClickListener(v -> ...) (lambda)
+3. Red / Green   -> ek hi listener object dono buttons par, view.getId() se pata
+                    chalta hai kaunsa button click hua (shared listener)
+4. XML Button    -> layout me android:onClick="onXmlClick" + MainActivity me
+                    public void onXmlClick(View v)
+
+Har click ka result status card par dikhta hai.

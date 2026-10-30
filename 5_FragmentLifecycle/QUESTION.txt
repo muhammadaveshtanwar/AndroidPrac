@@ -1,0 +1,23 @@
+QUESTION
+=======
+
+5. Develop an Android application to create and integrate a Fragment and
+   demonstrate Fragment lifecycle methods.
+
+----
+
+Project : 5_FragmentLifecycle (Android Studio, Java)
+Open    : Android Studio -> Open -> D:\Android_Practical\5_FragmentLifecycle
+Run     : Shift+F10 (app config) ya green Run button
+
+Kaise kaam karta hai:
+- MyFragment.java  -> Fragment ke saare 11 lifecycle methods override + Log.d
+    onAttach, onCreate, onCreateView, onViewCreated, onStart, onResume,
+    onPause, onStop, onDestroyView, onDestroy, onDetach
+    Logcat filter: FragmentLifecycle
+- MainActivity.java -> FrameLayout container me fragment add kiya
+    Remove Fragment button -> fragment hatata hai (poora destroy sequence)
+    Add Fragment button   -> wapas jodta hai (poora create sequence)
+- fragment_my.xml -> fragment ka khud ka layout (status card)
+- App start par Logcat: onAttach -> onCreate -> onCreateView ->
+  onViewCreated -> onStart -> onResume

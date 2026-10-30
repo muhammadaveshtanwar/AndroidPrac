@@ -1,0 +1,20 @@
+QUESTION
+=======
+
+2. Develop an Android application implementing Options Menu.
+
+----
+
+Project : 2_OptionsMenu (Android Studio, Java)
+Open    : Android Studio -> Open -> D:\Android_Practical\2_OptionsMenu
+Run     : Shift+F10 (app config) ya green Run button
+
+Kaise kaam karta hai:
+- res/menu/main_menu.xml  -> 5 menu items banaye
+    Refresh, Search  -> showAsAction (action bar par dikhte hain)
+    Settings, About, Exit -> showAsAction="never" (3 dots overflow menu me)
+- MainActivity.java
+    onCreateOptionsMenu()  -> menu inflate karta hai (R.menu.main_menu)
+    onOptionsItemSelected() -> item ke hisaab se action + Toast
+- Theme: Theme.MaterialComponents.Light.DarkActionBar (action bar dikhe)
+- Status card mein dikhata hai kaunsa item select hua

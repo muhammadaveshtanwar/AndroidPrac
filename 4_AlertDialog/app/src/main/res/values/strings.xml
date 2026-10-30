@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AlertDialogDemo</string>
+    <string name="title_text">Alert Dialog Demo</string>
+    <string name="description_text">Three types of AlertDialog: message, list and input.</string>
+
+    <string name="status_label">Last Action</string>
+    <string name="status_initial">No dialog action yet</string>
+
+    <string name="btn_alert">Show Alert Dialog</string>
+    <string name="btn_list">Show List Dialog</string>
+    <string name="btn_input">Show Input Dialog</string>
+
+    <string name="dialog_title">Confirm</string>
+    <string name="dialog_message">Do you want to save your practical file?</string>
+    <string name="dialog_yes">Yes</string>
+    <string name="dialog_no">No</string>
+    <string name="dialog_later">Later</string>
+    <string name="dialog_save">Save</string>
+    <string name="dialog_cancel">Cancel</string>
+
+    <string name="list_title">Select a subject</string>
+    <string-array name="subjects">
+        <item>Android Programming</item>
+        <item>Web Technologies</item>
+        <item>Database Management</item>
+        <item>Software Engineering</item>
+    </string-array>
+
+    <string name="input_title">Enter your name</string>
+    <string name="input_hint">Your name</string>
+
+    <string name="status_yes">Yes was clicked</string>
+    <string name="status_no">No was clicked</string>
+    <string name="status_later">Later was clicked</string>
+    <string name="status_empty">Name was empty</string>
+    <string name="status_saved">Saved: %1$s</string>
+    <string name="status_subject">Selected: %1$s</string>
+
+    <string name="toast_yes">You chose Yes</string>
+</resources>

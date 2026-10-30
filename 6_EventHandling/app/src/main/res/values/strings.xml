@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EventHandling</string>
+    <string name="title_text">Event Handling Demo</string>
+    <string name="description_text">OnClick listeners: anonymous class, lambda, shared listener and android:onClick in XML.</string>
+
+    <string name="status_label">Last Action</string>
+    <string name="status_initial">No button clicked yet</string>
+    <string name="count_initial">Count: 0</string>
+    <string name="count_text">Count: %1$d</string>
+
+    <string name="btn_count">Count Button</string>
+    <string name="btn_toast">Toast Button</string>
+    <string name="btn_red">Red</string>
+    <string name="btn_green">Green</string>
+    <string name="btn_xml">XML onClick Button</string>
+
+    <string name="status_count">Count button clicked (anonymous OnClickListener)</string>
+    <string name="status_toast">Toast button clicked (lambda OnClickListener)</string>
+    <string name="status_red">Red button clicked (shared listener)</string>
+    <string name="status_green">Green button clicked (shared listener)</string>
+    <string name="status_xml">XML button clicked (android:onClick attribute)</string>
+
+    <string name="toast_clicked">Toast button was clicked</string>
+    <string name="toast_xml">Handled by onXmlClick() method</string>
+</resources>

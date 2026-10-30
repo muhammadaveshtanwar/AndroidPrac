@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FragmentLifecycle</string>
+    <string name="title_text">Fragment Lifecycle Demo</string>
+    <string name="description_text">MyFragment implements all fragment lifecycle methods. Watch them in Logcat with filter: FragmentLifecycle</string>
+
+    <string name="frag_label">MyFragment - Last Lifecycle Method</string>
+    <string name="frag_initial">Fragment just loaded</string>
+    <string name="count_initial">Events so far: 0</string>
+    <string name="count_text">Events so far: %1$d</string>
+
+    <string name="event_oncreate">onCreate()</string>
+    <string name="event_oncreateview">onCreateView()</string>
+    <string name="event_onviewcreated">onViewCreated()</string>
+    <string name="event_onstart">onStart()</string>
+    <string name="event_onresume">onResume()</string>
+    <string name="event_onpause">onPause()</string>
+    <string name="event_onstop">onStop()</string>
+
+    <string name="btn_remove">Remove Fragment</string>
+    <string name="btn_add">Add Fragment</string>
+
+    <string name="logcat_hint">Remove dabao -> onPause, onStop, onDestroyView, onDestroy, onDetach. Add dabao -> onAttach, onCreate, onCreateView, onViewCreated, onStart, onResume.</string>
+</resources>
